@@ -1,0 +1,16 @@
+---
+http://google.com/:
+  :match_count: 8
+  :user_friendly_output: Found 8 matches
+http://twitter.com/:
+  :match_count: 37
+  :user_friendly_output: Found 37 matches
+http://youtube.com/:
+  :match_count: 243
+  :user_friendly_output: Found 243 matches
+http://facebook.com/:
+  :match_count: 15
+  :user_friendly_output: Found 15 matches
+http://wordpress.org/:
+  :match_count: 18
+  :user_friendly_output: Found 18 matches

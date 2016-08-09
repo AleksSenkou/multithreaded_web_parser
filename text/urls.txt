@@ -1,0 +1,6 @@
+"Rank","URL","Linking Root Domains","External Links","mozRank","mozTrust"
+1,"facebook.com/",9616487,1688316928,9.54,9.34
+2,"twitter.com/",6454936,2147483647,9.40,9.25
+3,"google.com/",5868081,807173458,9.30,9.27
+4,"youtube.com/",5442206,841281214,9.25,9.11
+5,"wordpress.org/",4051288,361023992,8.99,8.71
