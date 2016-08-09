@@ -1,4 +1,5 @@
-require 'pry'
+require 'colorize'
+require_relative 'messages'
 
 class ThreadPool
   include Messages
@@ -30,7 +31,7 @@ class ThreadPool
       begin
         thread.join
       rescue => e
-        puts "Failed: #{e.message}"
+        error_fetch_msg(e, thread[:index])
       end
     end
   end

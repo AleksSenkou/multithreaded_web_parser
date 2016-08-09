@@ -1,12 +1,15 @@
-require 'pry'
+require 'colorize'
 require 'csv'
 require 'postrank-uri'
 require 'open-uri'
 require 'open_uri_redirections'
 require 'active_support/inflector'
 require_relative 'thread_pool'
+require_relative 'messages'
 
 class WebsiteSearcher
+  include Messages
+
   attr_reader :urls
 
   def initialize(urls_file = '../text/urls.txt', search_pattern = 'text')
@@ -23,12 +26,12 @@ class WebsiteSearcher
   def run
     @urls.each do |url|
       @thread_pool.add_block do
-        puts "Start #{url}"
+        start_fetch_msg url
 
-        result = get_result_from url
-        add_result result
+        match_count, output = get_result_from url
+        add_result url, match_count, output
 
-        puts "Finish #{url}"
+        finish_fetch_msg url
       end
     end
 
@@ -48,7 +51,7 @@ class WebsiteSearcher
     match_count = count_matches fetched_data
     user_friendly_output = generate_output match_count
 
-    [url, match_count, user_friendly_output]
+    [match_count, user_friendly_output]
   end
 
   def get_urls_from_file
