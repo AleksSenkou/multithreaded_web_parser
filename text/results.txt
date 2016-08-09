@@ -1,16 +1,280 @@
 ---
-http://google.com/:
-  :match_count: 8
-  :user_friendly_output: Found 8 matches
+http://wordpre.com/:
+  :match_count: 3
+  :user_friendly_output: Found 3 matches
+http://adobe.com/:
+  :match_count: 23
+  :user_friendly_output: Found 23 matches
+http://fcbook.com/:
+  :match_count: 51
+  :user_friendly_output: Found 51 matches
+http://wikipedia.org/:
+  :match_count: 70
+  :user_friendly_output: Found 70 matches
 http://twitter.com/:
   :match_count: 37
   :user_friendly_output: Found 37 matches
+http://yahoo.com/:
+  :match_count: 64
+  :user_friendly_output: Found 64 matches
+http://myspace.com/:
+  :match_count: 44
+  :user_friendly_output: Found 44 matches
 http://youtube.com/:
-  :match_count: 243
-  :user_friendly_output: Found 243 matches
-http://facebook.com/:
-  :match_count: 15
-  :user_friendly_output: Found 15 matches
+  :match_count: 231
+  :user_friendly_output: Found 231 matches
+http://youtu.be/:
+  :match_count: 233
+  :user_friendly_output: Found 233 matches
+http://w3.org/:
+  :match_count: 8
+  :user_friendly_output: Found 8 matches
+http://blogspot.com/:
+  :match_count: 40
+  :user_friendly_output: Found 40 matches
+http://digg.com/:
+  :match_count: 55
+  :user_friendly_output: Found 55 matches
+http://feedburner.com/:
+  :match_count: 34
+  :user_friendly_output: Found 34 matches
+http://statcounter.com/:
+  :match_count: 26
+  :user_friendly_output: Found 26 matches
+http://google.com/:
+  :match_count: 8
+  :user_friendly_output: Found 8 matches
+http://vimeo.com/:
+  :match_count: 24
+  :user_friendly_output: Found 24 matches
+http://linkedin.com/:
+  :match_count: 16
+  :user_friendly_output: Found 16 matches
+http://apple.com/:
+  :match_count: 24
+  :user_friendly_output: Found 24 matches
+http://bbc.co.uk/:
+  :match_count: 120
+  :user_friendly_output: Found 120 matches
+http://nytimes.com/:
+  :match_count: 67
+  :user_friendly_output: Found 67 matches
+http://tumblr.com/:
+  :match_count: 13
+  :user_friendly_output: Found 13 matches
+http://pinterest.com/:
+  :match_count: 25
+  :user_friendly_output: Found 25 matches
 http://wordpress.org/:
   :match_count: 18
   :user_friendly_output: Found 18 matches
+http://blogger.com/:
+  :match_count: 40
+  :user_friendly_output: Found 40 matches
+http://flickr.com/:
+  :match_count: 62
+  :user_friendly_output: Found 62 matches
+http://microsoft.com/:
+  :match_count: 43
+  :user_friendly_output: Found 43 matches
+http://stumbleupon.com/:
+  :match_count: 11
+  :user_friendly_output: Found 11 matches
+http://goo.gl/:
+  :match_count: 4
+  :user_friendly_output: Found 4 matches
+http://macromedia.com/:
+  :match_count: 23
+  :user_friendly_output: Found 23 matches
+http://google.de/:
+  :match_count: 9
+  :user_friendly_output: Found 9 matches
+http://msn.com/:
+  :match_count: 7
+  :user_friendly_output: Found 7 matches
+http://delicious.com/:
+  :match_count: 38
+  :user_friendly_output: Found 38 matches
+http://icio.us/:
+  :match_count: 38
+  :user_friendly_output: Found 38 matches
+http://t.co/:
+  :match_count: 7
+  :user_friendly_output: Found 7 matches
+http://addthis.com/:
+  :match_count: 17
+  :user_friendly_output: Found 17 matches
+http://instagram.com/:
+  :match_count: 10
+  :user_friendly_output: Found 10 matches
+http://mail.ru/:
+  :match_count: 87
+  :user_friendly_output: Found 87 matches
+http://imdb.com/:
+  :match_count: 100
+  :user_friendly_output: Found 100 matches
+http://webs.com/:
+  :match_count: 5
+  :user_friendly_output: Found 5 matches
+http://tinyurl.com/:
+  :match_count: 24
+  :user_friendly_output: Found 24 matches
+http://fc2.com/:
+  :match_count: 18
+  :user_friendly_output: Found 18 matches
+http://weebly.com/:
+  :match_count: 20
+  :user_friendly_output: Found 20 matches
+http://go.com/:
+  :match_count: 74
+  :user_friendly_output: Found 74 matches
+http://vk.com/:
+  :match_count: 6
+  :user_friendly_output: Found 6 matches
+http://cnn.com/:
+  :match_count: 27
+  :user_friendly_output: Found 27 matches
+http://google.co.jp/:
+  :match_count: 9
+  :user_friendly_output: Found 9 matches
+http://free.fr/:
+  :match_count: 3
+  :user_friendly_output: Found 3 matches
+http://technorati.com/:
+  :match_count: 46
+  :user_friendly_output: Found 46 matches
+http://yandex.ru/:
+  :match_count: 23
+  :user_friendly_output: Found 23 matches
+http://creativecommons.org/:
+  :match_count: 58
+  :user_friendly_output: Found 58 matches
+http://sourceforge.net/:
+  :match_count: 45
+  :user_friendly_output: Found 45 matches
+http://hugedomains.com/:
+  :match_count: 17
+  :user_friendly_output: Found 17 matches
+http://google.co.uk/:
+  :match_count: 9
+  :user_friendly_output: Found 9 matches
+http://mozilla.org/:
+  :match_count: 11
+  :user_friendly_output: Found 11 matches
+http://networkadvertising.org/:
+  :match_count: 14
+  :user_friendly_output: Found 14 matches
+http://typepad.com/:
+  :match_count: 25
+  :user_friendly_output: Found 25 matches
+http://huffingtonpost.com/:
+  :match_count: 100
+  :user_friendly_output: Found 100 matches
+http://sina.com.cn/:
+  :match_count: 99
+  :user_friendly_output: Found 99 matches
+http://europa.eu/:
+  :match_count: 12
+  :user_friendly_output: Found 12 matches
+http://ameblo.jp/:
+  :match_count: 3
+  :user_friendly_output: Found 3 matches
+http://about.com/:
+  :match_count: 11
+  :user_friendly_output: Found 11 matches
+http://joomla.org/:
+  :match_count: 17
+  :user_friendly_output: Found 17 matches
+http://yahoo.co.jp/:
+  :match_count: 8
+  :user_friendly_output: Found 8 matches
+http://nih.gov/:
+  :match_count: 41
+  :user_friendly_output: Found 41 matches
+http://aol.com/:
+  :match_count: 29
+  :user_friendly_output: Found 29 matches
+http://jimdo.com/:
+  :match_count: 55
+  :user_friendly_output: Found 55 matches
+http://bing.com/:
+  :match_count: 61
+  :user_friendly_output: Found 61 matches
+http://51.la/:
+  :match_count: 21
+  :user_friendly_output: Found 21 matches
+http://theguardian.com/:
+  :match_count: 317
+  :user_friendly_output: Found 317 matches
+http://ebay.com/:
+  :match_count: 134
+  :user_friendly_output: Found 134 matches
+http://livejournal.com/:
+  :match_count: 181
+  :user_friendly_output: Found 181 matches
+http://rambler.ru/:
+  :match_count: 27
+  :user_friendly_output: Found 27 matches
+http://gnu.org/:
+  :match_count: 36
+  :user_friendly_output: Found 36 matches
+http://issuu.com/:
+  :match_count: 11
+  :user_friendly_output: Found 11 matches
+http://mapquest.com/:
+  :match_count: 5
+  :user_friendly_output: Found 5 matches
+http://slideshare.net/:
+  :match_count: 73
+  :user_friendly_output: Found 73 matches
+http://wix.com/:
+  :match_count: 18
+  :user_friendly_output: Found 18 matches
+http://tripod.com/:
+  :match_count: 21
+  :user_friendly_output: Found 21 matches
+http://washingtonpost.com/:
+  :match_count: 161
+  :user_friendly_output: Found 161 matches
+http://godaddy.com/:
+  :match_count: 323
+  :user_friendly_output: Found 323 matches
+http://reuters.com/:
+  :match_count: 55
+  :user_friendly_output: Found 55 matches
+http://geocities.com/:
+  :match_count: 0
+  :user_friendly_output: Found 0 matches
+http://wsj.com/:
+  :match_count: 374
+  :user_friendly_output: Found 374 matches
+http://photobucket.com/:
+  :match_count: 50
+  :user_friendly_output: Found 50 matches
+http://taobao.com/:
+  :match_count: 52
+  :user_friendly_output: Found 52 matches
+http://homestead.com/:
+  :match_count: 24
+  :user_friendly_output: Found 24 matches
+http://163.com/:
+  :match_count: 152
+  :user_friendly_output: Found 152 matches
+http://forbes.com/:
+  :match_count: 24
+  :user_friendly_output: Found 24 matches
+http://etsy.com/:
+  :match_count: 206
+  :user_friendly_output: Found 206 matches
+http://guardian.co.uk/:
+  :match_count: 317
+  :user_friendly_output: Found 317 matches
+http://weibo.com/:
+  :match_count: 4
+  :user_friendly_output: Found 4 matches
+http://dailymotion.com/:
+  :match_count: 30
+  :user_friendly_output: Found 30 matches
+http://baidu.com/:
+  :match_count: 0
+  :user_friendly_output: Found 0 matches

@@ -15,7 +15,7 @@ class WebsiteSearcher
     @urls = []
     @threads = []
     @results = {}
-    @thread_pool = ThreadPool.new
+    @thread_pool = ThreadPool.new 20
 
     get_urls_from_file
   end
