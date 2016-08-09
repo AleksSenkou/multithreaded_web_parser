@@ -1,21 +1,34 @@
 ---
-http://facebook.com/:
-  :number: 1
-  :match_count: 5253
-  :result: Found 5253 matches
-http://twitter.com/:
-  :number: 2
-  :match_count: 4121
-  :result: Found 4121 matches
+http://wordpress.com/:
+  :match_count: 8
+  :user_friendly_output: Found 8 matches
+http://wikipedia.org/:
+  :match_count: 70
+  :user_friendly_output: Found 70 matches
+http://adobe.com/:
+  :match_count: 23
+  :user_friendly_output: Found 23 matches
 http://google.com/:
-  :number: 3
-  :match_count: 102
-  :result: Found 102 matches
-http://youtube.com/:
-  :number: 4
-  :match_count: 4438
-  :result: Found 4438 matches
+  :match_count: 8
+  :user_friendly_output: Found 8 matches
+http://yahoo.com/:
+  :match_count: 64
+  :user_friendly_output: Found 64 matches
 http://wordpress.org/:
-  :number: 5
-  :match_count: 683
-  :result: Found 683 matches
+  :match_count: 18
+  :user_friendly_output: Found 18 matches
+http://linkedin.com/:
+  :match_count: 16
+  :user_friendly_output: Found 16 matches
+http://blogspot.com/:
+  :match_count: 40
+  :user_friendly_output: Found 40 matches
+http://facebook.com/:
+  :match_count: 15
+  :user_friendly_output: Found 15 matches
+http://youtube.com/:
+  :match_count: 243
+  :user_friendly_output: Found 243 matches
+http://twitter.com/:
+  :match_count: 37
+  :user_friendly_output: Found 37 matches
