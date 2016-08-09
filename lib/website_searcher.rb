@@ -25,11 +25,8 @@ class WebsiteSearcher
       @thread_pool.add_block do
         puts "Start #{url}"
 
-        fetched_data = fetch_data_from url
-        match_count = count_matches fetched_data
-        user_friendly_output = generate_output match_count
-
-        add_result(url, match_count, user_friendly_output)
+        result = get_result_from url
+        add_result result
 
         puts "Finish #{url}"
       end
@@ -45,6 +42,14 @@ class WebsiteSearcher
   end
 
   private
+
+  def get_result_from(url)
+    fetched_data = fetch_data_from url
+    match_count = count_matches fetched_data
+    user_friendly_output = generate_output match_count
+
+    [url, match_count, user_friendly_output]
+  end
 
   def get_urls_from_file
     urls_dirty_list = CSV.read(@urls_file, headers: true)['URL']
