@@ -1,0 +1,21 @@
+---
+http://facebook.com/:
+  :number: 1
+  :match_count: 5253
+  :result: Found 5253 matches
+http://twitter.com/:
+  :number: 2
+  :match_count: 4121
+  :result: Found 4121 matches
+http://google.com/:
+  :number: 3
+  :match_count: 102
+  :result: Found 102 matches
+http://youtube.com/:
+  :number: 4
+  :match_count: 4438
+  :result: Found 4438 matches
+http://wordpress.org/:
+  :number: 5
+  :match_count: 683
+  :result: Found 683 matches
