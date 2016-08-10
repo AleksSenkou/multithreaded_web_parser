@@ -1,3 +1,5 @@
+require 'colorize'
+
 module Messages
   def current_thread_msg(thread_index = nil)
     "Thread #{Thread.current[:index] || thread_index}".cyan

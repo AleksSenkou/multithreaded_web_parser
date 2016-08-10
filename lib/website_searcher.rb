@@ -1,4 +1,3 @@
-require 'colorize'
 require 'csv'
 require 'postrank-uri'
 require 'open-uri'
@@ -7,9 +6,9 @@ require 'active_support/inflector'
 require_relative 'thread_pool'
 require_relative 'messages'
 
-class WebsiteSearcher
-  include Messages
+include Messages
 
+class WebsiteSearcher
   attr_reader :urls
 
   def initialize(urls_file = '../text/urls.txt', search_pattern = 'text')

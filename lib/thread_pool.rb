@@ -1,9 +1,8 @@
-require 'colorize'
 require_relative 'messages'
 
-class ThreadPool
-  include Messages
+include Messages
 
+class ThreadPool
   def initialize(threads_limit = 20)
     @threads_limit = threads_limit
     @blocks = Queue.new
